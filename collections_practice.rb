@@ -30,4 +30,15 @@ def reverse_array(array)
 end
 end
 
+def kesha_maker(array)
+
+  array.replace(["bl$ke", "as$ley", "sc$tt"])
+     
+end
+
+def find_a(array)
+  array.select do |x|
+ x.start_with?("a")
+end
+end
 
